@@ -1,1 +1,0 @@
-require board=lahaina|RMX2202L1
