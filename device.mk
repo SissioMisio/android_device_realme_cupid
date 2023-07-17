@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/Ss_Sounds/ui/Lock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Lock.ogg \
     $(LOCAL_PATH)/Ss_Sounds/ui/Unlock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Unlock.ogg \
     $(LOCAL_PATH)/Ss_Sounds/ui/KeypressDelete.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressDelete.ogg \
-    $(LOCAL_PATH)/Ss_Sounds/ui/KeypressInvalid.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressInvalid.ogg \
     $(LOCAL_PATH)/Ss_Sounds/ui/KeypressReturn.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressReturn.ogg \
     $(LOCAL_PATH)/Ss_Sounds/ui/KeypressSpacebar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressSpacebar.ogg \
     $(LOCAL_PATH)/Ss_Sounds/ui/KeypressStandard.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/KeypressStandard.ogg \
