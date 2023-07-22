@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from realme GT (RMX2202_11_F.09).
+## are from realme GT (RMX2202_11_F.12).
 
 # ACDB
 odm/etc/acdbdata/Bluetooth_cal.acdb
@@ -61,7 +61,6 @@ vendor/lib/libextcamera_client.so
 vendor/lib/libgui1_vendor.so
 vendor/lib/libssrec.so
 vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
-vendor/lib/vendor.oplus.hardware.performance@1.0.so
 
 # Audio firmware
 odm/firmware/tfa98xx.cnt
@@ -554,7 +553,7 @@ odm/etc/camera/mtStereoParams.bin
 odm/etc/camera/mwStereoParams.bin
 odm/etc/camera/settings_fdc.txt
 odm/etc/camera/wide.bin
-odm/etc/vintf/manifest/manifest_oplus_cameraextension.xml
+odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
 odm/lib/libDeVIS.so
 odm/lib/libVDBlurlessAPI_v2.so
 odm/lib/libc++_shared.so
@@ -713,6 +712,7 @@ odm/lib64/libop-ai-beauty-faceretouch-cn.so
 odm/lib64/liboptical_zoom_dc.so
 odm/lib64/liboptical_zoom_vs.so
 odm/lib64/libormshalclient.so
+odm/lib64/libosenseaidlhalclient.so
 odm/lib64/libosensehalclient.so
 odm/lib64/libsnpe_dsp_domains_v2.so
 odm/lib64/libsnpe_dsp_domains_v3.so
@@ -727,9 +727,8 @@ odm/lib64/libtriplecam_image_optical_zoom.so
 odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libwatermark_photo.so
-odm/lib64/vendor.oplus.hardware.cameraextension@1.0-service-impl.so
-odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
-odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
+odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
+odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
@@ -840,6 +839,7 @@ vendor/lib64/libipebpsstriping.so
 vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmidasserviceintf.so
+vendor/lib64/libmidasserviceintf_aidl.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
 vendor/lib64/libmmcamera_faceproc.so
@@ -860,7 +860,9 @@ vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
+vendor/lib64/vendor.oplus.hardware.cameraextension-V1-ndk_platform.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
+vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|436cd1f351daaee8d8068c790005e814c6e4cdb6|74cb9bfeeb96df0b707654d662042133ffb23c1a
 
 # Camera firmware
@@ -912,7 +914,8 @@ odm/lib64/hw/fingerprint.goodix_G3.default.so
 odm/lib64/anc.hal.so
 odm/lib64/libgf_hal_G3.so
 odm/lib64/libolc_vnd.so
-odm/lib64/vendor.oplus.hardware.performance@1.0.so
+odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
+odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so
 odm/vendor/firmware/goodixfp.b00
 odm/vendor/firmware/goodixfp.b01
 odm/vendor/firmware/goodixfp.b02
@@ -953,8 +956,8 @@ odm/etc/init/vendor.qti.secure_element@1.2-service.rc
 odm/lib64/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
-odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service
-odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc
+odm/bin/hw/vendor-oplus-hardware-oplusSensor-V1-service
+odm/etc/init/vendor-oplus-hardware-oplusSensor-V1-service.rc
 odm/etc/sensor/config/lahaina_qrd_alsps.json
 odm/etc/sensor/config/lahaina_qrd_bmi160.json
 odm/etc/sensor/config/lahaina_qrd_icm4x607.json
@@ -962,8 +965,8 @@ odm/etc/sensor/config/lahaina_qrd_mmc56x3x.json
 odm/etc/sensor/config/lahaina_qrd_mn29005.json
 odm/etc/sensor/config/lahaina_qrd_tsl2540.json
 odm/etc/sensor/sensor_config.json
-odm/etc/vintf/manifest/manifest_oplusSensor.xml
-odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so
+odm/etc/vintf/manifest/manifest_oplusSensor_aidl.xml
+odm/lib64/vendor.oplus.hardware.oplusSensor-V1-ndk_platform.so
 
 # Touchpanel firmware
 odm/firmware/tp/20627/FW_FT3518_SAMSUNG.img
