@@ -15,7 +15,7 @@ All the previous versions are in the "old" folder, inside the MEGA folder.
 Flash the rom via LineageOS Recovery.
 
 
-Installation steps (NOT TESTED!!):
+Installation steps:
   
   (1): Flash LineageOS recovery (https://github.com/pjgowtham/android_device_realme_cupidr/releases/download/lineage-20.0-20230721-UNOFFICIAL-cupidr/recovery_lineage-20.0-20230721-UNOFFICIAL-cupidr.zip);
   
