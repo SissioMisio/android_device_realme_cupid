@@ -17,7 +17,7 @@ Flash the rom via LineageOS Recovery.
 
 Installation steps (NOT TESTED!!):
   
-  (1): Flash [LineageOS recovery]([url](https://github.com/pjgowtham/android_device_realme_cupid/releases/download/v1.0.0/lineage-recovery-realme-cupid.zip));
+  (1): Flash LineageOS recovery (https://github.com/pjgowtham/android_device_realme_cupidr/releases/download/lineage-20.0-20230721-UNOFFICIAL-cupidr/recovery_lineage-20.0-20230721-UNOFFICIAL-cupidr.zip);
   
   (2): Reboot to recovery;
   
