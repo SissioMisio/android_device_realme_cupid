@@ -3,7 +3,7 @@
 
 
 # Current bugs:
-- Bluetooth is a little buggy for WearOS/GalaxyWatch connection. If you get any problems with it, open an issue :)
+- Is Bluetooth buggy for WearOS/GalaxyWatch connection? If you get any problems with it, open an issue :)
 
 
 # [MEGA Folder containing the builds:]([url](https://mega.nz/folder/8do2yYKD#pSludOp_ioDdWnDGPnHCNA))
