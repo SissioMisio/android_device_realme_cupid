@@ -47,8 +47,43 @@
         <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
     
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">
+        M 103 73
+        M 71 73
+        A 32 32 0 1 0 139 73
+        A 32 32 0 1 0 71 73
+        Z
+        @left
+    </string>
+
+    <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
+         one single bounding rect per device edge to the app via
+         {@link DisplayCutout#getBoundingRect}. Note that this path should try to match the visual
+         appearance of the cutout as much as possible, and may be smaller than
+         config_mainBuiltInDisplayCutout
+         -->
+    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
+        M 0,0
+        H 164
+        V 123
+        H 0
+        Z
+        @left
+    </string>
+
+    <!-- Whether the display cutout region of the main built-in display should be forced to
+         black in software (to avoid aliasing or emulate a cutout that is not physically existent).
+         -->
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+    
         <!-- If the device should still vibrate even in low power mode, for certain priority vibrations
      (e.g. accessibility, alarms). This is mainly for Wear devices that don't have speakers. -->
+    
+    <!-- Default files to pin via Pinner Service -->
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+        <item>"/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk"</item>
+    </string-array>
+    
     <bool name="config_allowPriorityVibrationsInLowPowerMode">true</bool>
     
         <!-- Show area update info settings in CellBroadcastReceiver and information in SIM status in Settings app -->
