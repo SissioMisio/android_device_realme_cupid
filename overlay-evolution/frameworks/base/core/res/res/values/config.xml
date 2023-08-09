@@ -40,9 +40,6 @@
          carrier provisioning. If false: hard disabled. If true: then depends on carrier
          provisioning, availability etc -->
     <bool name="config_carrier_vt_available">true</bool>
-    
-        <!-- Whether to use voip audio mode for ims call -->
-    <bool name="config_use_voip_mode_for_ims">true</bool>
 
         <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
