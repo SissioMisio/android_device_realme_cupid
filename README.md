@@ -1,4 +1,4 @@
-# EvolutionX device tree for Realme GT
+# RisingOS device tree for Realme GT
  OPEN AN ISSUE IF ANY PROBLEM OCCURS!
 
 
