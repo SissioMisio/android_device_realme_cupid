@@ -25,6 +25,10 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    
+    <!-- Shows the required view for in-display fingerprint -->
+    <bool name="config_needCustomFODView">true</bool>
+    
     <!-- Flag specifying whether VoLTE is available on device -->
     <bool name="config_device_volte_available">true</bool>
 
@@ -86,4 +90,6 @@
         <!-- Show area update info settings in CellBroadcastReceiver and information in SIM status in Settings app -->
     <bool name="config_showAreaUpdateInfoSettings">true</bool>
     
+        <!-- Whether or not to use assistant stream volume separately from music volume -->
+    <bool name="config_useAssistantVolume">true</bool>
 </resources>

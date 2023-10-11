@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_cupidr.mk
+    $(LOCAL_DIR)/octavi_cupidr.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_cupidr-user \
-    evolution_cupidr-userdebug \
-    evolution_cupidr-eng
+    octavi_cupidr-user \
+    octavi_cupidr-userdebug \
+    octavi_cupidr-eng
