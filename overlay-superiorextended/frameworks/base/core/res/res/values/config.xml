@@ -25,6 +25,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+
     <!-- Flag specifying whether VoLTE is available on device -->
     <bool name="config_device_volte_available">true</bool>
 
@@ -82,8 +83,5 @@
     </string-array>
     
     <bool name="config_allowPriorityVibrationsInLowPowerMode">true</bool>
-    
-        <!-- Show area update info settings in CellBroadcastReceiver and information in SIM status in Settings app -->
-    <bool name="config_showAreaUpdateInfoSettings">true</bool>
     
 </resources>
