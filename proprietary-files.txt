@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from realme GT (RMX2202_11_F.12).
+## are from realme GT (RMX2202_13.1.0.1413(EX01)).
 
 # ACDB
 odm/etc/acdbdata/Bluetooth_cal.acdb
@@ -558,50 +558,26 @@ odm/lib/libDeVIS.so
 odm/lib/libVDBlurlessAPI_v2.so
 odm/lib/libc++_shared.so
 odm/lib64/camera/components/com.arcsoft.node.eisv2.so
-odm/lib64/camera/components/com.arcsoft.node.eisv2.so
-odm/lib64/camera/components/com.arcsoft.node.smooth_transition.so
 odm/lib64/camera/components/com.arcsoft.node.smooth_transition.so
 odm/lib64/camera/components/com.oplus.node.pilot.so
-odm/lib64/camera/components/com.oplus.node.pilot.so
-odm/lib64/camera/components/com.oplus.node.preview.so
 odm/lib64/camera/components/com.oplus.node.preview.so
 odm/lib64/camera/components/com.oplus.node.videoenhance.so
-odm/lib64/camera/components/com.oplus.node.videoenhance.so
-odm/lib64/camera/arcsoft_calibration_uw.bin
 odm/lib64/camera/arcsoft_calibration_uw.bin
 odm/lib64/camera/arcsoft_calibration_wt.bin
-odm/lib64/camera/arcsoft_calibration_wt.bin
-odm/lib64/camera/arcsoft_dc_calibration_t.bin
 odm/lib64/camera/arcsoft_dc_calibration_t.bin
 odm/lib64/camera/arcsoft_dc_calibration_u.bin
-odm/lib64/camera/arcsoft_dc_calibration_u.bin
-odm/lib64/camera/arcsoft_dc_calibration_w.bin
 odm/lib64/camera/arcsoft_dc_calibration_w.bin
 odm/lib64/camera/com.qti.sensor.hi846.so
-odm/lib64/camera/com.qti.sensor.hi846.so
-odm/lib64/camera/com.qti.sensor.imx471.so
 odm/lib64/camera/com.qti.sensor.imx471.so
 odm/lib64/camera/com.qti.sensor.imx682.so
-odm/lib64/camera/com.qti.sensor.imx682.so
-odm/lib64/camera/com.qti.sensor.ov02b10.so
 odm/lib64/camera/com.qti.sensor.ov02b10.so
 odm/lib64/camera/com.qti.sensormodule.qtech_im682.bin
-odm/lib64/camera/com.qti.sensormodule.qtech_im682.bin
-odm/lib64/camera/com.qti.sensormodule.shinetech_ov02b10.bin
 odm/lib64/camera/com.qti.sensormodule.shinetech_ov02b10.bin
 odm/lib64/camera/com.qti.sensormodule.sunny_hi846.bin
-odm/lib64/camera/com.qti.sensormodule.sunny_hi846.bin
 odm/lib64/camera/com.qti.sensormodule.sunny_imx471.bin
-odm/lib64/camera/com.qti.sensormodule.sunny_imx471.bin
-odm/lib64/camera/com.qti.tuned.default.bin
-odm/lib64/camera/com.qti.tuned.default.bin
-odm/lib64/camera/com.qti.tuned.sm8350_hi846_sunny.bin
 odm/lib64/camera/com.qti.tuned.sm8350_hi846_sunny.bin
 odm/lib64/camera/com.qti.tuned.sm8350_imx471_sunny.bin
-odm/lib64/camera/com.qti.tuned.sm8350_imx471_sunny.bin
 odm/lib64/camera/com.qti.tuned.sm8350_imx682_qtech.bin
-odm/lib64/camera/com.qti.tuned.sm8350_imx682_qtech.bin
-odm/lib64/camera/com.qti.tuned.sm8350_ov02b10_shinetech.bin
 odm/lib64/camera/com.qti.tuned.sm8350_ov02b10_shinetech.bin
 odm/lib64/lib2DSlender.so
 odm/lib64/libAlgoInterface.so
