@@ -1,5 +1,5 @@
 # Bluetooth
-bluetooth.device.default_name=realme GT
+bluetooth.device.default_name=realme GT 5G
 
 # Graphics
 ro.surface_flinger.set_idle_timer_ms=4000
@@ -9,4 +9,4 @@ ro.surface_flinger.set_touch_timer_ms=4000
 persist.radio.multisim.config=dsds
 
 # USB
-vendor.usb.product_string=realme GT
+vendor.usb.product_string=realme GT 5G

@@ -25,7 +25,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc_snxxx@1.2-service \
+    android.hardware.nfc-service.nxp \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
     Tag
@@ -47,6 +47,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
+    OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
 # Sensors
@@ -76,4 +77,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/Ss_Sounds/ui/VideoRecord.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/VideoRecord.ogg \
     $(LOCAL_PATH)/Ss_Sounds/ui/VideoStop.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/VideoStop.ogg \
     $(LOCAL_PATH)/Ss_Sounds/ui/LowBattery.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/LowBattery.ogg
-
