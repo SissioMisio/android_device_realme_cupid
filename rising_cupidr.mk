@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from cupidr device
 $(call inherit-product, device/realme/cupidr/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common RisingOS stuff.
+$(call inherit-product, vendor/rising/config/rising.mk)
 
-PRODUCT_NAME := lineage_cupidr
+PRODUCT_NAME := rising_cupidr
 PRODUCT_DEVICE := cupidr
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -37,7 +37,7 @@ BUILD_FINGERPRINT := realme/RMX2202/RMX2202L1:13/TP1A.220905.001/R.13639a6-a-2bd
 # chipset flag enclose var with "" if more than one
 # friendly tip: builders can use init_xxx.cpp as workaround for spacing
 # e.g. property_override("ro.rising.chipset", "Snapdragon 870 5G");
-RISING_CHIPSET := "Snapdragon 888"
+RISING_CHIPSET := "Snapdragon-888"
 
 # chipset flag enclose var with "" if more than one
 # friendly tip: builders can use init_xxx.cpp as workaround for spacing
@@ -47,13 +47,16 @@ RISING_MAINTAINER := "SissioMisio"
 # chipset flag enclose var with "" if more than one
 # this will reflect on build/display version, a firmware package/zip name
 # e.g. risingDroid-7.0-COMMUNITY-device-AOSP.zip - AOSP is the default package type, WITH_GMS will override the package type to PIXEL
-RISING_PACKAGE_TYPE := "VANILLA AOSP"
+RISING_PACKAGE_TYPE := "VANILLA_AOSP"
 
-# Aperture Camera (default: not defined - skipped by the compiler)
-TARGET_BUILD_APERTURE_CAMERA := false
+WITH_GMS := false
+TARGET_CORE_GMS := false
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
+
+# Enable kernel inline building
+INLINE_KERNEL_BUILDING := true
 
 # UDFPS ICONS/ANIMATIONS
 TARGET_HAS_UDFPS := true

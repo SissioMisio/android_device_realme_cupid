@@ -1,0 +1,5 @@
+get_prop(hal_camera_default, boot_status_prop)
+
+
+allow hal_camera_default vendor_system_prop:file { read getattr open map };
+allow hal_camera_default system_data_file:dir { search };
