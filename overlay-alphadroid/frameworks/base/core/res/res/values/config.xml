@@ -85,7 +85,4 @@
     
         <!-- Show area update info settings in CellBroadcastReceiver and information in SIM status in Settings app -->
     <bool name="config_showAreaUpdateInfoSettings">true</bool>
-    
-        <!-- Whether or not to use assistant stream volume separately from music volume -->
-    <bool name="config_useAssistantVolume">true</bool>
-</resources>
+    </resources>

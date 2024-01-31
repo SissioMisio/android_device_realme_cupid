@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-rising
+    $(LOCAL_PATH)/overlay-alphadroid
 
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
