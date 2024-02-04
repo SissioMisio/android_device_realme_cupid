@@ -44,7 +44,7 @@ WITH_GMS := true
 
 # Maintainer Flags
 ALPHA_MAINTAINER := SissioMisio
-ALPHA_BUILD_TYPE := Unofficial
+ALPHA_BUILD_TYPE := UNOFFICIAL
 
 # Debugging Flags
 TARGET_INCLUDE_MATLOG := true
