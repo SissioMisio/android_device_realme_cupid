@@ -40,7 +40,7 @@ TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # GAPPS
-WITH_GAPPS := false
+WITH_GMS := true
 
 # Maintainer Flags
 ALPHA_MAINTAINER := SissioMisio
