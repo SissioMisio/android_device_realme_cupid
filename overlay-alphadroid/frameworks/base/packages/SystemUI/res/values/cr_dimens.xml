@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 crDroid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Udfps fingerprint animation -->
+    <dimen name="udfps_animation_offset">-13dp</dimen>
+
+</resources>
