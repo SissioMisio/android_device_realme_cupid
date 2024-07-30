@@ -39,9 +39,17 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_HAS_UDFPS := true
+# TARGET_BUILD_PACKAGE options:
+# 1 - vanilla (default)
+# 2 - microg
+# 3 - gapps
+TARGET_BUILD_PACKAGE := 3
 
-# GAPPS
-WITH_GMS := true
+# TARGET_LAUNCHER options:
+# 1 - stock (default)
+# 2 - lawnchair
+# 3 - pixel (valid only on gapps builds)
+TARGET_LAUNCHER := 2
 
 # Maintainer Flags
 ALPHA_MAINTAINER := SissioMisio
