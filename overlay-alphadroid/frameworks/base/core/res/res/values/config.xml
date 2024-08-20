@@ -80,9 +80,6 @@
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
         <item>"/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk"</item>
     </string-array>
-    
-    <bool name="config_allowPriorityVibrationsInLowPowerMode">true</bool>
-    
         <!-- Show area update info settings in CellBroadcastReceiver and information in SIM status in Settings app -->
     <bool name="config_showAreaUpdateInfoSettings">true</bool>
     </resources>
